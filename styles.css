@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Outfit;
+  font-family: "Outfit", sans-serif;
 }
 
 .attribution {
@@ -18,8 +18,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  position: relative;
   background-color: #d5e1ef;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,12 +27,13 @@ body {
 }
 
 .container {
+  height: 499px;
+  width: 320px;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  background-color: white;
-  width: 320px;
   border-radius: 20px;
   padding: 16px 16px 40px 16px;
 }
@@ -53,12 +54,11 @@ body {
 }
 
 .intro {
-  font-family: sans-serif;
   color: #1f314f;
   text-align: center;
   font-size: 22px;
   line-height: 120%;
-  font-weight: 800;
+  font-weight: bold;
 }
 
 .details {
